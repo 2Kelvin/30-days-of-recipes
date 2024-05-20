@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">30 Days Of Recipes</string>
+    <string name="day_one_recipe">Day 1 recipe</string>
+    <string name="day1_one_desc">Day 1 description</string>
+</resources>
