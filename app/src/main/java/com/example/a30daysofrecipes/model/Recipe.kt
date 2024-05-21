@@ -16,7 +16,13 @@ val recipesList = listOf(
     Recipe(
         day = 1,
         name = R.string.day_one_recipe,
-        img = R.drawable.,
+        img = R.drawable.rcp_10,
+        desc = R.string.day_one_desc
+    ),
+    Recipe(
+        day = 2,
+        name = R.string.day_one_recipe,
+        img = R.drawable.rcp_7,
         desc = R.string.day_one_desc
     ),
 )
