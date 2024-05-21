@@ -29,7 +29,7 @@ val Typography = Typography(
     ),
     labelSmall = TextStyle(
         fontFamily = Poppins,
-        fontWeight = FontWeight.Bold,
-        fontSize = 12.sp
+        fontWeight = FontWeight.Light,
+        fontSize = 14.sp
     ),
 )

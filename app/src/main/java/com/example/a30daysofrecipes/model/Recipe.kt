@@ -5,7 +5,7 @@ import androidx.annotation.StringRes
 import com.example.a30daysofrecipes.R
 
 data class Recipe(
-    val day: Int,
+    @StringRes val day: Int,
     @StringRes val name: Int,
     @DrawableRes val img: Int,
     @StringRes val desc: Int
@@ -14,13 +14,13 @@ data class Recipe(
 
 val recipesList = listOf(
     Recipe(
-        day = 1,
+        day = R.string.day_one,
         name = R.string.day_one_recipe,
         img = R.drawable.rcp_10,
         desc = R.string.day_one_desc
     ),
     Recipe(
-        day = 2,
+        day = R.string.day_one,
         name = R.string.day_one_recipe,
         img = R.drawable.rcp_7,
         desc = R.string.day_one_desc
