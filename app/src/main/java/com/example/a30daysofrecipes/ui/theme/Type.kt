@@ -27,6 +27,11 @@ val Typography = Typography(
         fontWeight = FontWeight.Bold,
         fontSize = 20.sp
     ),
+    titleMedium = TextStyle(
+        fontFamily = Poppins,
+        fontWeight = FontWeight.Bold,
+        fontSize = 32.sp
+    ),
     labelSmall = TextStyle(
         fontFamily = Poppins,
         fontWeight = FontWeight.Light,
